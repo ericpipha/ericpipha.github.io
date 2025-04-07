@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7ab679fe.css",
-    "main.js": "/static/js/main.7334438f.js",
+    "main.js": "/static/js/main.7cdbbcc7.js",
     "static/js/961.210f6c8e.chunk.js": "/static/js/961.210f6c8e.chunk.js",
     "static/media/slides_defence_eric_pichon_pharabod.pdf": "/static/media/slides_defence_eric_pichon_pharabod.665d738901ef132766c6.pdf",
     "static/media/phd_thesis_eric_pichon_pharabod.pdf": "/static/media/phd_thesis_eric_pichon_pharabod.1c6bf6d95c1e376dd241.pdf",
@@ -23,16 +23,15 @@
     "static/media/elliptic_surface.png": "/static/media/elliptic_surface.c979a3c0be0d7f2cb14e.png",
     "static/media/jncf2.png": "/static/media/jncf2.709c3217f705fc82da51.png",
     "static/media/munich.png": "/static/media/munich.1a4e63384aa2e1332531.png",
-    "static/media/siamag25.png": "/static/media/siamag25.a7867cd6ac4836c801ca.png",
     "static/media/angers.png": "/static/media/angers.b72d9183eff15c7d3eb7.png",
     "static/media/mpimis.png": "/static/media/mpimis.0cc968c6916b7c5c825c.png",
     "index.html": "/index.html",
     "main.7ab679fe.css.map": "/static/css/main.7ab679fe.css.map",
-    "main.7334438f.js.map": "/static/js/main.7334438f.js.map",
+    "main.7cdbbcc7.js.map": "/static/js/main.7cdbbcc7.js.map",
     "961.210f6c8e.chunk.js.map": "/static/js/961.210f6c8e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7ab679fe.css",
-    "static/js/main.7334438f.js"
+    "static/js/main.7cdbbcc7.js"
   ]
 }
