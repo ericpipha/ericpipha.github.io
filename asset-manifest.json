@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7ab679fe.css",
-    "main.js": "/static/js/main.7cdbbcc7.js",
+    "main.js": "/static/js/main.5e0049e1.js",
     "static/js/961.210f6c8e.chunk.js": "/static/js/961.210f6c8e.chunk.js",
     "static/media/slides_defence_eric_pichon_pharabod.pdf": "/static/media/slides_defence_eric_pichon_pharabod.665d738901ef132766c6.pdf",
     "static/media/phd_thesis_eric_pichon_pharabod.pdf": "/static/media/phd_thesis_eric_pichon_pharabod.1c6bf6d95c1e376dd241.pdf",
@@ -15,6 +15,7 @@
     "static/media/critical_events.png": "/static/media/critical_events.023fb3b1daa67ce45cc7.png",
     "static/media/lille_AGintegrableautomorphic.png": "/static/media/lille_AGintegrableautomorphic.929dd0eb0a028a0e7829.png",
     "static/media/motivic_seminar_icon.png": "/static/media/motivic_seminar_icon.be03b0ef0eb3c0b96aed.png",
+    "static/media/MPI_MCBG.png": "/static/media/MPI_MCBG.9e90aff01d97e3fcea80.png",
     "static/media/lefschetz_family.png": "/static/media/lefschetz_family.ab688291766bad6ab111.png",
     "static/media/BCTP.png": "/static/media/BCTP.c9d70421ad65ed3be244.png",
     "static/media/tardigrade.png": "/static/media/tardigrade.4a69d4fe3226df599046.png",
@@ -27,11 +28,11 @@
     "static/media/mpimis.png": "/static/media/mpimis.0cc968c6916b7c5c825c.png",
     "index.html": "/index.html",
     "main.7ab679fe.css.map": "/static/css/main.7ab679fe.css.map",
-    "main.7cdbbcc7.js.map": "/static/js/main.7cdbbcc7.js.map",
+    "main.5e0049e1.js.map": "/static/js/main.5e0049e1.js.map",
     "961.210f6c8e.chunk.js.map": "/static/js/961.210f6c8e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7ab679fe.css",
-    "static/js/main.7cdbbcc7.js"
+    "static/js/main.5e0049e1.js"
   ]
 }
