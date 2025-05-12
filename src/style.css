@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* CSS Document */
+
+:root {
+  --color1: #000000;
+  --color2: #0c1821;
+  --color3: #4571B4;
+  --color4: #68A0D2;
+  --color5: #ccc9dc;
+}
+
+body {
+  margin:0px;
+	background-color: var(--color1);
+	color:var(--color5);
+	font-size:1.5em;
+}
+html {
+  overflow-y: scroll;
+}
+
+html {
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.email {
+  direction: rtl;
+  unicode-bidi: bidi-override
+}
+h1 {
+	text-align: center;
+	font: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
+}
+.section h3 { 
+	padding-left:2vw;
+	padding-bottom:0.5vw;
+}
+a {
+  	color: var(--color3);
+	text-decoration: none;
+}
+a:hover {
+  color: var(--color4);
+}
+
+header {
+	background-color: var(--color1);
+	width: auto;
+	min-height:5em;
+	padding: 3em 1em;
+}
+
+.section {
+	padding:10px 1em 1em 1em;
+	
+}
+@media screen and (min-width : 830px ){
+	.main .section {
+		padding: 1em 5em;
+	}
+}
+
+.talk-date {
+	color: var(--color3);
+	padding-right: 1em;
+}
+
+
+ .section:nth-child(even) {
+	background-color:var(--color1);
+}
+ .section:nth-child(odd) {
+	background-color:var(--color2);
+}

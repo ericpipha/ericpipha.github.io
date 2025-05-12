@@ -1,6 +1,6 @@
 .publication {
 	min-height: 100px;
-	width:100%;
+	width: 100%;
 	margin-top: 30px;
 	padding-bottom: 20px;
 }
@@ -8,35 +8,30 @@
 .section:nth-child(odd) .publication:not(:last-child) {
 	border-bottom: 2px solid var(--background_dark);
 }
+
 .section:nth-child(even) .publication:not(:last-child) {
 	border-bottom: 2px solid var(--background_light);
 }
 
-.publication .icon {
-	vertical-align: top;
-	display: inline-block;
-	height:125px;
-	width:125px;
-	margin-right: 1%;
-}
-
-.publication .text{
+.publication .text {
 	display: inline-block;
 	width: calc(99% - 125px);
 }
-.publication .text:only-child{
+
+.publication .text:only-child {
 	width: 100%
 }
 
 .publication .header {
 	margin-bottom: 5px;
 }
-.publication .header .title{
+
+.publication .header .title {
 	font-size: 1.5em;
 	color: var(--link);
 }
 
-.publication .header .title a:hover{
+.publication .header .title a:hover {
 	text-decoration: none;
 }
 
@@ -49,10 +44,11 @@
 	font-size: 0.9em;
 	text-align: right;
 }
+
 .publication .abstract {
 	text-indent: 40px;
 	margin-bottom: 15px;
-    text-align: justify;
+	text-align: justify;
 }
 
 @media screen and (min-width: 1100px) {
@@ -62,9 +58,13 @@
 
 }
 
-.publication .authors {
+.publication .authors, .publication .authors a {
 	margin-bottom: 15px;
-	color:var(--text-light);
+	color: var(--text-light);
+}
+
+.publication .authors a:hover {
+	color: var(--text);
 }
 
 .publication .authors .big {
@@ -72,31 +72,32 @@
 	font-size: 1.2em;
 }
 
-.publication .footer > span {
-    margin-left: 20px;
-	color:var(--text-light);
+.publication .footer>span {
+	margin-left: 20px;
+	color: var(--text-light);
 }
 
-.publication .footer > span > a {
-	color:var(--text-light);
+.publication .footer>span>a {
+	color: var(--text-light);
 }
 
 .publication .icon {
-    vertical-align: top;
-    display: inline-block;
-    height: 125px;
-    width: 125px;
-    margin-right: 1%;
-  }
-  
-  .publication .icon img {
-    width: 125px;
-  }
+	vertical-align: top;
+	display: inline-block;
+	height: 125px;
+	width: 125px;
+	margin-right: 1%;
+}
 
-  @media screen and (max-width: 1100px){
+.publication .icon img {
+	width: 125px;
+}
+
+@media screen and (max-width: 1100px) {
 	.publication .icon {
 		display: none;
 	}
+
 	.publication .text {
 		width: 100%;
 	}

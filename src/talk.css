@@ -1,0 +1,104 @@
+.talk {
+	/* min-height: 100px; */
+	width: 100%;
+	margin-top: 10px;
+	padding-bottom: 5px;
+}
+
+.section:nth-child(odd) .talk:not(:last-child) {
+	border-bottom: 2px solid var(--background_dark);
+}
+
+.section:nth-child(even) .talk:not(:last-child) {
+	border-bottom: 2px solid var(--background_light);
+}
+
+.talk .text {
+	display: inline-block;
+	width: calc(99% - 50px);
+}
+
+.talk .text:only-child {
+	width: 100%
+}
+
+.talk .header {
+	margin-bottom: 5px;
+}
+
+.talk .header .title {
+	font-size: 1.5em;
+	color: var(--link);
+}
+
+.talk .header .title a:hover {
+	text-decoration: none;
+}
+
+.talk .footer .pdf a:hover {
+	color: red;
+	text-decoration: none;
+}
+
+.talk .footer .date.future {
+	color: greenyellow;
+}
+
+.talk .footer {
+	font-size: 0.9em;
+	text-align: right;
+}
+
+.talk .abstract {
+	text-indent: 40px;
+	margin-bottom: 15px;
+	text-align: justify;
+}
+
+@media screen and (min-width: 1100px) {
+	.talk .abstract {
+		text-align: justify;
+	}
+
+}
+
+.talk .authors {
+	margin-bottom: 15px;
+	color: var(--text-light);
+}
+
+.talk .authors .big {
+	font-variant: small-caps;
+	font-size: 1.2em;
+}
+
+.talk .footer>span {
+	margin-left: 20px;
+	color: var(--text-light);
+}
+
+.talk .footer>span>a {
+	color: var(--text-light);
+}
+
+.talk .icon {
+	vertical-align: top;
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	margin-right: 1%;
+}
+
+.talk .icon img {
+	width: 50px;
+}
+
+@media screen and (max-width: 1100px) {
+	.talk .icon {
+		display: none;
+	}
+
+	.talk .text {
+		width: 100%;
+	}
+}
