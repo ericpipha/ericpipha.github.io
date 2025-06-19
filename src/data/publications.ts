@@ -1,5 +1,16 @@
 let publications: publication[]  = [
-    
+    {
+        date: new Date(2025, 4, 12),
+        title: "Periods of fibre products of elliptic surfaces and the Gamma conjecture",
+        url: "https://arxiv.org/abs/2505.07685.pdf",
+        pdf: "https://arxiv.org/pdf/2505.07685.pdf",
+        img_url: new URL("./../imgs/hadamard_products.png", import.meta.url).toString(),
+        abstract: "We provide an algorithm for computing a basis of homology of fibre products of elliptic surfaces over the projective live, along with the corresponding intersection product and period matrices. We use this data to investigate the Gamma conjecture for Calabi-Yau threefold obtained in this manner. We find a formula that works for all operators of a list of 105 fibre products, as well as fourth order operators of the Calabi-Yau database. This algorithm comes with a SageMath implementation.",
+        authors: [
+            {firstname: "Eric", lastname: "Pichon-Pharabod"}
+        ],
+        status:"Preprint"
+    },
     {
         date: new Date(2024, 4, 1),
         title: "A semi-numerical algorithm for the homology lattice and periods of complex elliptic surfaces over the projective line",

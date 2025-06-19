@@ -9,6 +9,15 @@ let talks: talk[]  = [
     //     abstract: ""
     // },
     {
+        date: new Date(2025, 8, 22),
+        title: "TBA",
+        url: "https://indico.mitp.uni-mainz.de/event/413/",
+        location: "MathemAmplitudes — MITP, Mainz",
+        location_url: "https://indico.mitp.uni-mainz.de/event/413/",
+        img_url: new URL("./../imgs/mathemamplitudes.png", import.meta.url).toString(),
+        abstract: ""
+    },  
+    {
         date: new Date(2025, 8, 1),
         title: "TBA",
         url: "https://indico.hiskp.uni-bonn.de/event/833/",
@@ -27,9 +36,9 @@ let talks: talk[]  = [
         abstract: ""
     },  
     {
-        date: new Date(2025, 4, 26),
+        date: new Date(2025, 4, 28),
         title: "Periods of Hadamard products of elliptic surfaces and the Gamma conjecture",
-        url: "https://fmhf.math.cnrs.fr/blog/2025_algebraic_geometry_integrable_systems_and_automorphic_forms/",
+        url: "https://smagp.pages.math.cnrs.fr/AGISAF2025/index.html",
         location: "Algebraic geometry, integrable systems and automorphic forms — Lille",
         location_url: "https://fmhf.math.cnrs.fr/blog/2025_algebraic_geometry_integrable_systems_and_automorphic_forms/",
         img_url: new URL("./../imgs/lille_AGintegrableautomorphic.png", import.meta.url).toString(),
