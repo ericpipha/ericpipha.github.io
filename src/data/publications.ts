@@ -1,10 +1,23 @@
 let publications: publication[]  = [
     {
+        date: new Date(2025, 8, 9),
+        title: "Galois groups of symmetric cubic surfaces",
+        url: "https://arxiv.org/abs/2509.06785.pdf",
+        pdf: "https://arxiv.org/pdf/2509.06785.pdf",
+        img_url: new URL("./../imgs/clebsch.png", import.meta.url).toString(),
+        abstract: "The Galois group of a family of cubic surfaces is the monodromy group of the 27 lines of its generic fibre. We describe a method to compute this group for linear systems of cubic surfaces using certified numerical computations. Applying this to all families which are invariant under the action of a subgroup of the symmetric group on five elements, we find that the Galois group is often much smaller than the Weyl group W(E6). As a byproduct, we compute the discriminants of these~families. Our method allows to compute the monodromy representation on homology of any family of generically smooth projective hypersurfaces. To illustrate this broader scope, we include computations for symmetric quartic surfaces.",
+        authors: [
+            {firstname: "Eric", lastname: "Pichon-Pharabod"},
+            {firstname: "Simon", lastname: "Telen", homepage_url: "https://sites.google.com/view/simontelen/home-page"}
+        ],
+        status:"Preprint"
+    },
+    {
         date: new Date(2025, 4, 12),
         title: "Periods of fibre products of elliptic surfaces and the Gamma conjecture",
         url: "https://arxiv.org/abs/2505.07685.pdf",
         pdf: "https://arxiv.org/pdf/2505.07685.pdf",
-        img_url: new URL("./../imgs/hadamard_products.png", import.meta.url).toString(),
+        img_url: new URL("./../imgs/fibre_product.png", import.meta.url).toString(),
         abstract: "We provide an algorithm for computing a basis of homology of fibre products of elliptic surfaces over the projective live, along with the corresponding intersection product and period matrices. We use this data to investigate the Gamma conjecture for Calabi-Yau threefold obtained in this manner. We find a formula that works for all operators of a list of 105 fibre products, as well as fourth order operators of the Calabi-Yau database. This algorithm comes with a SageMath implementation.",
         authors: [
             {firstname: "Eric", lastname: "Pichon-Pharabod"}
@@ -16,7 +29,7 @@ let publications: publication[]  = [
         title: "A semi-numerical algorithm for the homology lattice and periods of complex elliptic surfaces over the projective line",
         url: "https://www.sciencedirect.com/science/article/abs/pii/S0747717124000610",
         pdf: "https://arxiv.org/pdf/2401.05131.pdf",
-        img_url: new URL("./../imgs/elliptic_surface.png", import.meta.url).toString(),
+        img_url: new URL("./../imgs/morsification.png", import.meta.url).toString(),
         abstract: "We provide an algorithm for computing an effective basis of homology of elliptic surfaces over the complex projective line on which integration of periods can be carried out. This allows the heuristic recovery of several algebraic invariants of the surface, notably the Néron-Severi lattice, the transcendental lattice, the Mordell-Weil group and the Mordell-Weil lattice. This algorithm comes with a SageMath implementation.",
         authors: [
             {firstname: "Eric", lastname: "Pichon-Pharabod"}
@@ -43,7 +56,7 @@ let publications: publication[]  = [
         title: "Effective homology and periods of complex projective hypersurfaces",
         url: "https://www.ams.org/journals/mcom/0000-000-00/S0025-5718-2024-03947-9/",
         pdf: "https://arxiv.org/pdf/2306.05263.pdf",
-        img_url: new URL("./../imgs/lefschetz_family.png", import.meta.url).toString(),
+        img_url: new URL("./../imgs/lefschetz_family_inverted2.png", import.meta.url).toString(),
         abstract: "We provide an algorithm to compute an effective description of the homology of complex projective hypersurfaces relying on Picard-Lefschetz theory. Next, we use this description to compute high-precision numerical approximations of the periods of the hypersurface. This is an improvement over existing algorithms as this new method allows for the computation of periods of smooth quartic surfaces in an hour on a laptop, which could not be attained with previous methods. The general theory presented in this paper can be generalised to varieties other than just hypersurfaces, such as elliptic fibrations as showcased on an example coming from Feynman graphs. Our algorithm comes with a SageMath implementation. ",
         authors: [
             {firstname: "Eric", lastname: "Pichon-Pharabod"},
@@ -57,7 +70,7 @@ let publications: publication[]  = [
         title: "Motivic geometry of 2-loop Feynman integrals (Appendix)",
         url: "https://doi.org/10.1093/qmath/haae015",
         pdf: "https://arxiv.org/pdf/2302.14840.pdf",
-        img_url: new URL("./../imgs/tardigrade.png", import.meta.url).toString(),
+        img_url: new URL("./../imgs/feynman_graphs.png", import.meta.url).toString(),
         abstract: "We study the geometry and Hodge theory of the cubic hypersurfaces attached to two-loop Feynman integrals for generic physical parameters. We show that the Hodge structure attached to planar two-loop Feynman graphs decomposes into mixed Tate pieces and the Hodge structures of families of hyperelliptic, elliptic, or rational curves depending on the space-time dimension. For two-loop graphs with a small number of edges, we give more precise results. In particular, we recover a result of Bloch that in the well-known double box example, there is an underlying family of elliptic curves, and we give a concrete description of these elliptic curves. \nWe argue that the motive for the non-planar two-loop tardigrade graph is that of a K3 surface of Picard number 11 and determine the generic lattice polarization. Lastly, we show that generic members of the ice cream cone family of graph hypersurfaces correspond to pairs of sunset Calabi-Yau varieties. ",
         authors: [
             {firstname: "Eric", lastname: "Pichon-Pharabod"},

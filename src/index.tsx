@@ -25,7 +25,7 @@ ReactDOM.render(
       <p>
         I completed my PhD at Université Paris-Saclay, in <a href="https://mathexp.eu/">team MATHEXP</a> (<a href="https://specfun.inria.fr/">previously SpecFun</a>) at Inria Saclay,
       under the supervision of <a href="http://pierre.lairez.fr/">Pierre Lairez</a> and <a href="https://pierrevanhove.github.io/">Pierre Vanhove</a>.
-        I defended my PhD thesis on Friday September 27th.
+        I defended my PhD thesis on Friday September 27th, 2024.
         You may <a href={require('./pdfs/phd_thesis_eric_pichon_pharabod.pdf')}>read my thesis manuscript here</a>.
         You may <a href={require('./pdfs/slides_defence_eric_pichon_pharabod.pdf')}>read the slides of the defence here</a>.
       </p>

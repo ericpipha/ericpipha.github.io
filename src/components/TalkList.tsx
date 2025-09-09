@@ -1,4 +1,5 @@
 import * as React from "react";
+import { useState } from "react";
 import { dateToString, sortDates } from "./Util";
 
 type talkListProp = {
@@ -6,9 +7,15 @@ type talkListProp = {
 }
 
 let TalkList = ({ list }: talkListProp) => {
+
+    const [showAll, setShowAll] = useState(false);
+
+    const maxItemsNum = showAll ? list.length : 5;
+
     return (
         <div className="list">
-            {list.sort((t1,t2) => sortDates(t1.date, t2.date)).map((talk) => (
+            <div>
+            {list.sort((t1,t2) => sortDates(t1.date, t2.date)).slice(0, maxItemsNum).map((talk) => (
                 <div className="talk">
                     {talk.img_url == undefined ? null :
                         <div className="icon">
@@ -34,6 +41,8 @@ let TalkList = ({ list }: talkListProp) => {
                     </div>
                 </div>
             ))}
+            </div>
+            <div className="expandButtonContainer"><button className="expandButton" onClick={() => setShowAll(!showAll)}>{showAll? "Show less" : "Show more"}</button></div>
         </div>
     )
 }

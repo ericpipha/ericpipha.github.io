@@ -15,7 +15,7 @@
 
 .publication .text {
 	display: inline-block;
-	width: calc(99% - 125px);
+	width: calc(98% - 225px);
 }
 
 .publication .text:only-child {
@@ -84,13 +84,14 @@
 .publication .icon {
 	vertical-align: top;
 	display: inline-block;
-	height: 125px;
-	width: 125px;
+	height: 225px;
+	width: 225px;
 	margin-right: 1%;
+	margin-left: 1%;
 }
 
 .publication .icon img {
-	width: 125px;
+	width: 225px;
 }
 
 @media screen and (max-width: 1100px) {

@@ -149,4 +149,29 @@ a:active {
   background-color: var(--text-light);
 }
 
+.expandButtonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+}
 
+.expandButton {
+  color: var(--link);
+  background-color: transparent;
+  outline: none;
+  border: 1pt var(--link) solid;
+  border-radius: 1em;
+  padding: .2em .5em;
+  cursor:pointer;
+}
+
+.expandButton:hover {
+  color: var(--link-hover);
+  border-color: var(--link-hover);
+}
+
+.expandButton:active {
+  color: var(--link-active);
+  border-color: var(--link-active);
+}

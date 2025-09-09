@@ -18,8 +18,8 @@ let talks: talk[]  = [
         abstract: ""
     },  
     {
-        date: new Date(2025, 8, 1),
-        title: "TBA",
+        date: new Date(2025, 8, 5),
+        title: "Periods of Hadamard products of elliptic surfaces and the Gamma conjecture",
         url: "https://indico.hiskp.uni-bonn.de/event/833/",
         location: "Elliptics and Beyond 2025 — Bethe Center for Theoretical Physics, Bonn",
         location_url: "https://indico.hiskp.uni-bonn.de/event/833/",
