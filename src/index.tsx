@@ -45,7 +45,7 @@ ReactDOM.render(
     <Section title="Publications and preprints">
       <PublicationList list={publications} />
     </Section>
-    <Section title="Software">
+    <Section title="Software and data">
       <SoftwareList list={software} />
     </Section>
     <Section title="Talks">
