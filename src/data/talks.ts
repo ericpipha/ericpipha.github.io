@@ -9,9 +9,9 @@ let talks: talk[]  = [
     //     abstract: ""
     // },
     {
-        date: new Date(2025, 8, 22),
-        title: "TBA",
-        url: "https://indico.mitp.uni-mainz.de/event/413/",
+        date: new Date(2025, 8, 25),
+        title: "Canonical form of differential systems of displaced hyperplane arrangements from positive geometry",
+        url: "https://indico.mitp.uni-mainz.de/event/413/timetable/#20250925.detailed",
         location: "MathemAmplitudes — MITP, Mainz",
         location_url: "https://indico.mitp.uni-mainz.de/event/413/",
         img_url: new URL("./../imgs/mathemamplitudes.png", import.meta.url).toString(),
@@ -20,7 +20,7 @@ let talks: talk[]  = [
     {
         date: new Date(2025, 8, 5),
         title: "Periods of Hadamard products of elliptic surfaces and the Gamma conjecture",
-        url: "https://indico.hiskp.uni-bonn.de/event/833/",
+        url: "https://indico.hiskp.uni-bonn.de/event/833/timetable/#20250905",
         location: "Elliptics and Beyond 2025 — Bethe Center for Theoretical Physics, Bonn",
         location_url: "https://indico.hiskp.uni-bonn.de/event/833/",
         img_url: new URL("./../imgs/BCTP.png", import.meta.url).toString(),

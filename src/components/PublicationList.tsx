@@ -8,9 +8,9 @@ type publicationListProp = {
 let PublicationList = ({ list }: publicationListProp) => {
     return (
         <div className="list">
-            {list.sort((p1, p2) => sortDates(p1.date, p2.date)).map((publication, index) => (
+            {list.sort((p1, p2) => sortDates(p1.date, p2.date)).map((publication) => (
                 <div className="publication">
-                    {publication.img_url == undefined || index%2==1 ? null :
+                    {publication.img_url == undefined ? null :
                         <div className="icon">
                             <img
                                 src={publication.img_url}
@@ -45,15 +45,6 @@ let PublicationList = ({ list }: publicationListProp) => {
                             {publication.pdf == undefined ? null : <span className="pdf"><a href={publication.pdf}>(pdf)</a></span>}
                         </div>
                     </div>
-                    {publication.img_url == undefined || index%2==0 ? null :
-                        <div className="icon">
-                            <img
-                                src={publication.img_url}
-                                alt={publication.img_description == undefined ? publication.img_description : publication.title}
-                                className="icon"
-                            />
-                        </div>
-                    }
                 </div>
             ))}
         </div>
