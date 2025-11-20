@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fb2c75b8.css",
-    "main.js": "/static/js/main.46ec3d92.js",
+    "main.js": "/static/js/main.22c5b45e.js",
     "static/js/961.210f6c8e.chunk.js": "/static/js/961.210f6c8e.chunk.js",
     "static/media/slides_defence_eric_pichon_pharabod.pdf": "/static/media/slides_defence_eric_pichon_pharabod.665d738901ef132766c6.pdf",
     "static/media/phd_thesis_eric_pichon_pharabod.pdf": "/static/media/phd_thesis_eric_pichon_pharabod.1c6bf6d95c1e376dd241.pdf",
@@ -15,6 +15,7 @@
     "static/media/critical_events.png": "/static/media/critical_events.7752ee096a387be1c0b3.png",
     "static/media/morsification.png": "/static/media/morsification.3a4dfa78e0f0fb76a6c5.png",
     "static/media/nottingham_icon.png": "/static/media/nottingham_icon.2f0378e9d835a20acd54.png",
+    "static/media/ESI.png": "/static/media/ESI.6efd2b8223a412e1804b.png",
     "static/media/cmsa.png": "/static/media/cmsa.b9548f27a4030c3aa045.png",
     "static/media/mathemamplitudes.png": "/static/media/mathemamplitudes.cab862f60b7e732c3067.png",
     "static/media/lille_AGintegrableautomorphic.png": "/static/media/lille_AGintegrableautomorphic.929dd0eb0a028a0e7829.png",
@@ -22,6 +23,7 @@
     "static/media/MPI_MCBG.png": "/static/media/MPI_MCBG.9e90aff01d97e3fcea80.png",
     "static/media/feynman_graphs.png": "/static/media/feynman_graphs.33123452719283c9014a.png",
     "static/media/BCTP.png": "/static/media/BCTP.c9d70421ad65ed3be244.png",
+    "static/media/SEED.png": "/static/media/SEED.5537299c9c6bd147a8ed.png",
     "static/media/lefschetz_family_inverted2.png": "/static/media/lefschetz_family_inverted2.69b55154a3f9f11d2066.png",
     "static/media/siamag_icon.png": "/static/media/siamag_icon.cd430371c0b4b8bf6062.png",
     "static/media/mathexp.png": "/static/media/mathexp.f186ed783e38f81f798f.png",
@@ -31,11 +33,11 @@
     "static/media/mpimis.png": "/static/media/mpimis.0cc968c6916b7c5c825c.png",
     "index.html": "/index.html",
     "main.fb2c75b8.css.map": "/static/css/main.fb2c75b8.css.map",
-    "main.46ec3d92.js.map": "/static/js/main.46ec3d92.js.map",
+    "main.22c5b45e.js.map": "/static/js/main.22c5b45e.js.map",
     "961.210f6c8e.chunk.js.map": "/static/js/961.210f6c8e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb2c75b8.css",
-    "static/js/main.46ec3d92.js"
+    "static/js/main.22c5b45e.js"
   ]
 }
