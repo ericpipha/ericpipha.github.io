@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkwebpage=self.webpackChunkwebpage||[]).push([[961],{961:(a,e,c)=>{c.r(e),c.d(e,{ContactMeHref:()=>r,default:()=>o});c(791);var h=c(184);const r=a=>(0,h.jsx)("a",{href:"mailto:eric.pichon-pharabod@maths.ox.ac.uk",children:"eric.pichon-pharabod@maths.ox.ac.uk"}),o=r}}]);
+//# sourceMappingURL=961.17631726.chunk.js.map

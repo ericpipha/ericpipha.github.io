@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkwebpage=self.webpackChunkwebpage||[]).push([[961],{961:(e,c,a)=>{a.r(c),a.d(c,{ContactMeHref:()=>p,default:()=>s});a(791);var i=a(184);const p=e=>(0,i.jsx)("a",{href:"mailto:eric.pichon@mis.mpg.de",children:"eric.pichon@mis.mpg.de"}),s=p}}]);
-//# sourceMappingURL=961.210f6c8e.chunk.js.map
