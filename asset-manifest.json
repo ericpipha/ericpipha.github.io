@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.fb2c75b8.css",
-    "main.js": "/static/js/main.2823a798.js",
+    "main.js": "/static/js/main.9fe518ac.js",
     "static/js/961.17631726.chunk.js": "/static/js/961.17631726.chunk.js",
     "static/media/slides_defence_eric_pichon_pharabod.pdf": "/static/media/slides_defence_eric_pichon_pharabod.665d738901ef132766c6.pdf",
     "static/media/phd_thesis_eric_pichon_pharabod.pdf": "/static/media/phd_thesis_eric_pichon_pharabod.1c6bf6d95c1e376dd241.pdf",
     "static/media/cosmicweb_icon.png": "/static/media/cosmicweb_icon.cdb82128eff049d93666.png",
     "static/media/clebsch.png": "/static/media/clebsch.d38cfee66f57d2b78b14.png",
+    "static/media/youngst@rs.png": "/static/media/youngst@rs.b16c6450a37748a3116b.png",
     "static/media/fibre_product.png": "/static/media/fibre_product.b83004630d6050e77aed.png",
     "static/media/bilbao.png": "/static/media/bilbao.e80251a4ce437d33d49f.png",
     "static/media/arithmeticCYM.png": "/static/media/arithmeticCYM.18f9003150164dc41539.png",
@@ -33,11 +34,11 @@
     "static/media/mpimis.png": "/static/media/mpimis.0cc968c6916b7c5c825c.png",
     "index.html": "/index.html",
     "main.fb2c75b8.css.map": "/static/css/main.fb2c75b8.css.map",
-    "main.2823a798.js.map": "/static/js/main.2823a798.js.map",
+    "main.9fe518ac.js.map": "/static/js/main.9fe518ac.js.map",
     "961.17631726.chunk.js.map": "/static/js/961.17631726.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb2c75b8.css",
-    "static/js/main.2823a798.js"
+    "static/js/main.9fe518ac.js"
   ]
 }
