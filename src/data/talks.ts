@@ -8,6 +8,60 @@ let talks: talk[]  = [
     //     img_url: new URL("./../imgs/siamag25.png", import.meta.url).toString(),
     //     abstract: ""
     // },
+    // {
+    //     date: new Date(2026, 3, 20),
+    //     title: "TBA",
+    //     url: "",
+    //     location: "Loops and Geometry workshop, YoungSt@rs -  Erwin Schrödinger Institute, Vienna",
+    //     location_url: "",
+    //     img_url: new URL("./../imgs/ESI.png", import.meta.url).toString(),
+    //     abstract: ""
+    // },  
+    {
+        date: new Date(2026, 5, 3),
+        title: "Numerical computations of periods and monodromy representations",
+        url: "",
+        location: "ECR event, Durham University",
+        location_url: "",
+        img_url: new URL("./../imgs/durham.png", import.meta.url).toString(),
+        abstract: ""
+    },  
+    {
+        date: new Date(2026, 3, 20),
+        title: "Numerical computations of periods",
+        url: "https://indico.mitp.uni-mainz.de/event/467/",
+        location: "Loops & Geometry: Hidden Structures in Multi-loop Amplitudes — Youngst@rs",
+        location_url: "https://indico.mitp.uni-mainz.de/event/467/page/950-speaker-list",
+        img_url: new URL("./../imgs/youngst@rs.png", import.meta.url).toString(),
+        abstract: ""
+    },  
+    {
+        date: new Date(2026, 2, 25),
+        title: "Numerical computations of periods",
+        url: "https://www.esi.ac.at/events/e586/",
+        location: "Mathematical structures of amplitudes workshop -  Erwin Schrödinger Institute, Vienna",
+        location_url: "https://www.esi.ac.at/events/e586/",
+        img_url: new URL("./../imgs/ESI.png", import.meta.url).toString(),
+        abstract: ""
+    },  
+    {
+        date: new Date(2026, 2, 2),
+        title: "Monodromy of Symmetric Cubic Surfaces",
+        url: "https://conferences.cirm-math.fr/3559.html",
+        location: "Journées Nationales du Calcul Formel (JNCF) 2026 — Marseille Luminy",
+        location_url: "https://www.cirm-math.fr/Schedule/display.php?id_renc=3559",
+        img_url: new URL("./../imgs/jncf2.png", import.meta.url).toString(),
+        abstract: ""
+    },  
+    {
+        date: new Date(2026, 0, 28),
+        title: "Numerical computations of periods and monodromy representations",
+        url: "https://seedseminar.apps.math.cnrs.fr/",
+        location: "Seed Seminar - Institut Henri Poincaré, Paris",
+        location_url: "https://seedseminar.apps.math.cnrs.fr/",
+        img_url: new URL("./../imgs/SEED.png", import.meta.url).toString(),
+        abstract: ""
+    },  
     {
         date: new Date(2025, 8, 25),
         title: "Canonical form of differential systems of displaced hyperplane arrangements from positive geometry",
@@ -137,9 +191,9 @@ let talks: talk[]  = [
     {
         date: new Date(2023, 10, 15),
         title: "Periods of hypersurfaces via effective homology",
-        url: "https://www-lipn.univ-paris13.fr/~duchamp/Conferences/CAP10_2023.html",
+        url: "https://indico.math.cnrs.fr/event/10817/",
         location: "Combinatorics and Arithmetic for Physics — IHES, Bures-sur-Yvette",
-        location_url: "https://www-lipn.univ-paris13.fr/~duchamp/Conferences/CAP10_2023.html",
+        location_url: "https://indico.math.cnrs.fr/event/10817/timetable/#29-periods-of-hypersurfaces-vi",
         img_url: new URL("./../imgs/CAP23.png", import.meta.url).toString(),
         abstract: "the period matrix of a smooth complex projective variety X encodes the isomorphism between the singular homology of X and its De Rham cohomology given by the De Rham theorem. Numerical approximations with sufficient precision of the entries of this matrix, called periods, allow to recover some algebraic invariants of the varieties, as shown for example by Torelli-type theorems. I will present a method relying on the computation of an effective description of the homology for obtaining such numerical approximations of the periods of hypersurfaces. This method is sufficiently efficient to allow computing the periods of dense quartic K3 surfaces in the three-dimensional projective space."
     },

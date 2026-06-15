@@ -15,6 +15,13 @@ let software: publication[]  = [
         abstract: "Data and software for (heuristically) computing topological data of Calabi-Yau operators."
     },
     {
+        title: "Galois groups of crystallographic surfaces",
+        date: undefined,
+        status: undefined,
+        url: "https://github.com/ericpipha/Galois-Groups-of-cubic-surfaces-supporting-data/",
+        abstract: "This database contains a list of monodromy groups in the spaces of cubic and quartic surfaces with equations that are invariant under a finite group of linear automorphisms of the ambiant projective space."
+    },
+    {
         title: "CYCluster",
         date: undefined,
         status: undefined,

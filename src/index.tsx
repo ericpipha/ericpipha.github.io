@@ -20,7 +20,10 @@ ReactDOM.render(
     <Banner title="Eric Pichon-Pharabod's personal webpage" />
     <Section title="About me">
       <p>
-        I am a postdoctoral researcher at the <a href="https://www.mis.mpg.de/numerical-algebraic-geometry">Numerical algebraic geometry group</a> of the <a href="https://www.mis.mpg.de">Max-Planck institute for Mathematics in the Sciences, Leipzig</a>. 
+        I am a postdoctoral researcher at the <a href="https://www.maths.ox.ac.uk/">Mathematical institute</a> of the <a href="https://www.ox.ac.uk/">University of Oxford</a> since January 2026. 
+      </p>
+      <p>
+        Previously I was a postdoctoral researcher at the <a href="https://www.mis.mpg.de/numerical-algebraic-geometry">Numerical algebraic geometry group</a> of the <a href="https://www.mis.mpg.de">Max-Planck institute for Mathematics in the Sciences, Leipzig</a> from October 2024 to December 2025. During my time there I was coorganising the <a href="https://positive-geometry.com/events/online-seminars">Universe+ online seminar</a>.
       </p>
       <p>
         I completed my PhD at Université Paris-Saclay, in <a href="https://mathexp.eu/">team MATHEXP</a> (<a href="https://specfun.inria.fr/">previously SpecFun</a>) at Inria Saclay,
@@ -28,9 +31,6 @@ ReactDOM.render(
         I defended my PhD thesis on Friday September 27th, 2024.
         You may <a href={require('./pdfs/phd_thesis_eric_pichon_pharabod.pdf')}>read my thesis manuscript here</a>.
         You may <a href={require('./pdfs/slides_defence_eric_pichon_pharabod.pdf')}>read the slides of the defence here</a>.
-      </p>
-      <p>
-        I am coorganising the <a href="https://positive-geometry.com/events/online-seminars">Universe+ online seminar</a>.
       </p>
       <p>
         Aside from mathematics, I enjoy cooking, running and occasionally playing the viola.

@@ -4,8 +4,8 @@ export interface IContactMeHrefProps { }
 
 export const ContactMeHref: React.FC<IContactMeHrefProps> = props => {
     return (
-        <a href="mailto:eric.pichon@mis.mpg.de">
-            eric.pichon@mis.mpg.de
+        <a href="mailto:eric.pichon-pharabod@maths.ox.ac.uk">
+            eric.pichon-pharabod@maths.ox.ac.uk
         </a>
     );
 };
