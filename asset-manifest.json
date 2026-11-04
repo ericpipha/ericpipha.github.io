@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fb2c75b8.css",
-    "main.js": "/static/js/main.5a1fa1f4.js",
+    "main.js": "/static/js/main.9a149bb9.js",
     "static/js/961.17631726.chunk.js": "/static/js/961.17631726.chunk.js",
     "static/media/slides_defence_eric_pichon_pharabod.pdf": "/static/media/slides_defence_eric_pichon_pharabod.665d738901ef132766c6.pdf",
     "static/media/phd_thesis_eric_pichon_pharabod.pdf": "/static/media/phd_thesis_eric_pichon_pharabod.1c6bf6d95c1e376dd241.pdf",
@@ -18,6 +18,7 @@
     "static/media/nottingham_icon.png": "/static/media/nottingham_icon.2f0378e9d835a20acd54.png",
     "static/media/durham.png": "/static/media/durham.8cd443bafefd821ae48b.png",
     "static/media/ESI.png": "/static/media/ESI.6efd2b8223a412e1804b.png",
+    "static/media/elliptics26.png": "/static/media/elliptics26.c82dbdf29be3e5859b32.png",
     "static/media/cmsa.png": "/static/media/cmsa.b9548f27a4030c3aa045.png",
     "static/media/mathemamplitudes.png": "/static/media/mathemamplitudes.cab862f60b7e732c3067.png",
     "static/media/lille_AGintegrableautomorphic.png": "/static/media/lille_AGintegrableautomorphic.929dd0eb0a028a0e7829.png",
@@ -31,15 +32,16 @@
     "static/media/mathexp.png": "/static/media/mathexp.f186ed783e38f81f798f.png",
     "static/media/jncf2.png": "/static/media/jncf2.709c3217f705fc82da51.png",
     "static/media/munich.png": "/static/media/munich.1a4e63384aa2e1332531.png",
+    "static/media/sheffield.png": "/static/media/sheffield.22c2bc2c4d618dfeb646.png",
     "static/media/angers.png": "/static/media/angers.b72d9183eff15c7d3eb7.png",
     "static/media/mpimis.png": "/static/media/mpimis.0cc968c6916b7c5c825c.png",
     "index.html": "/index.html",
     "main.fb2c75b8.css.map": "/static/css/main.fb2c75b8.css.map",
-    "main.5a1fa1f4.js.map": "/static/js/main.5a1fa1f4.js.map",
+    "main.9a149bb9.js.map": "/static/js/main.9a149bb9.js.map",
     "961.17631726.chunk.js.map": "/static/js/961.17631726.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb2c75b8.css",
-    "static/js/main.5a1fa1f4.js"
+    "static/js/main.9a149bb9.js"
   ]
 }
